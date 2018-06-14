@@ -1,15 +1,31 @@
 
 body {
-    background: #26262a;
+    /* background: #26262a; */
     font-family: 'Roboto', Helvetica, sans-serif;
     margin: 0 auto;
+    
+   
+   
+}
+#background{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-image:url( "../background_adjust_transparent.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    size: 100% 100%;
+    z-index: -1;
+    
 }
 #name {
     /* height:200px; */
     text-transform: uppercase;
     letter-spacing: .5rem;
     display: table;
-    color: #FFF;
+    color: #333;
     margin: 0 auto;
     margin-top:30vh;
 }
@@ -35,11 +51,12 @@ body {
 }
 a {display:table;
     text-decoration: none;
-    color: #FFF;
+    color: #333;
     font-size: 20px;
     margin:0 auto;
     border: solid;
-    border-color: #FFF;
-    padding:12px;
+    border-color: #333;
+    padding:12px 20px;
+    border-radius:0;
     
 }
