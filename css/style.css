@@ -54,6 +54,8 @@ a:hover{
    
 }
 a {display:table;
+    width:80px;
+    text-align: center;
     text-decoration: none;
     color: #333;
     font-size: 20px;
