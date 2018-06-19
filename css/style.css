@@ -1,11 +1,7 @@
 
 body {
-    /* background: #26262a; */
-    font-family: 'Roboto', Helvetica, sans-serif;
-    margin: 0 auto;
     
-   
-   
+    font-family: 'Roboto', Helvetica, sans-serif; 
 }
 #background{
     position: absolute;
@@ -24,7 +20,7 @@ body {
     /* height:200px; */
     text-transform: uppercase;
     letter-spacing: .5rem;
-    display: table;
+    text-align:center;
     color: #333;
     margin: 0 auto;
     margin-top:30vh;
@@ -32,37 +28,29 @@ body {
 .wrapper{
     margin:0 auto;
     width:360px;
+    display:flex;
 }
 .link{
-    display:block;
-    width: 50%;
-    grid-column: auto;
-    
-   
-}
-a:hover{
 
-    background-color:rgba(255, 255, 255, .5)
-}
-#resume{
-    
-    float: left;
-    
-}
-#portfolio{
-    float: right;
-   
-}
-a {display:table;
-    width:80px;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
+    /* width: 50%; */
+    grid-column: auto;
     margin:0 auto;
     border: solid;
     border-color: #333;
+    font-size: 20px;
     padding:12px 20px;
     border-radius:0;
+    text-align: center;
+    
+    
+}
+.link:hover{
+
+    background-color:rgba(255, 255, 255, .5)
+}
+
+a {
+    text-decoration: none;
+    color: #333;
     
 }
